@@ -17,6 +17,12 @@
 
 英文题目：Practical Re-implementation of Linux Kernel
 
+> 1. 重新实现Linux Kernel，新内核与原始实现ABI兼容，直接接管原始的Linux应用和原始的驱动等模块。
+> 2. 这个重新实现的内核是组件化的，组件是基于Rust语言实现的。
+> 3. 过程是渐进式的，分为两个阶段：第一阶段完成Linux Kernel的组件化，第二阶段用Rust组件逐个替换C组件。
+> 4. 第一阶段对起止状态对比验证，保证组件化后的内核与原始的Linux Kernel在功能、性能和ABI兼容性方面的一致性。
+> 5. 第二阶段中，在对每个组件替换的前后进行对比验证，保证每个Rust组件对被替换C组件具有等效性，内核整体的功能、性能和ABI兼容性都保持不变。
+
 目前有很多新型操作系统内核的实现都可以归类为对Linux Kernel的重新实现。一方面，新内核希望能够保持对已有应用系统和驱动的支持，保持Linux生态延续性；另一方面，新内核希望通过全部或局部重构的方式，有效应对Linux Kernel中日益严重的内存/并发安全问题、扩展性问题和持续可维护性问题。即，既要继承资产，又要改造完善。实践上必须满足如下的要求。
 
 <img src="./Practical Re-implementation of Linux Kernel.assets/image-20241224224450542.png" alt="image-20241224224450542" style="zoom:80%;" />
@@ -124,6 +130,8 @@ Booter的功能：系统引导和组件加载与初始化
 
 分解为组件(单向依赖关系) -> 形成有向无环图，自底向上的单调关系，因此自底向上的每一级都是一个DAG -> 任意结点作为根的DAG对应一个可以单独构建、运行、测试和验证的系统。
 
+#### 步骤
+
 1. 复用当前的模块机制，从局部扩展到全局
 
    当前Linux Kernel支持部分的模块化，一个module包含一个到几个.c文件，再加上init函数构成。module通过EXPORT_SYMBOL导出公开函数或变量符号，其它module可以调用这些公开函数或变量。
@@ -160,7 +168,21 @@ Booter的功能：系统引导和组件加载与初始化
 
 展示形成的结果，基于Riscv64，可以运行静态Linux应用的完整DAG包含大约45个组件。
 
+由此形成一个栈式的层次模型。
+
+#### 组件化内核模型 - 层次栈
+
+通过对Linux Kernel的组件化分解，建立组件化内核的模型。
+
+模型融合了C组件与Rust组件开发的经验，是跨语言的组件化模型。
+
+<img src="./Practical Re-implementation of Linux Kernel.assets/image-20241231183643402.png" alt="image-20241231183643402" style="zoom:80%;" />
+
+
+
 ### 步骤2 - 用Rust组件逐个替换C组件，替换前后，功能相同，性能相当
+
+> ABI兼容，采取-none-工具链，合成ELF组件，在二进制层面与C组件一致。
 
 1. 每个Rust组件是一个lib crate。
 2. 禁止LTO优化，产生目标代码而非llvm中间码。这样可以与C在同一层面链接。
@@ -176,8 +198,6 @@ Booter的功能：系统引导和组件加载与初始化
 1. 分解原始Linux Kernel为组件化的过程是一次性的，替换完成之后与原始Linux成为并行的两条线。以后单独维护re-implementation，决定是否合并原始Linux升级后的特性。
 2. Rust组件占据主流之后，ABI接口转为中间码接口。
 3. 遗留C组件反向适配Rust的需要
-
-
 
 
 
@@ -235,4 +255,14 @@ Booter的功能：系统引导和组件加载与初始化
 论文宣称，该实现的基础是一个小型的TCB，并且根据研究者的经验，这个TCB的规模是可以被控制住，始终保持在一个非常低的规模下的。这个TCB目前就对应于ostd，它封装了所有unsafe的东西、所有对系统整体可能带来致命影响的部分，对上层暴露一个Sound的接口。所以，整个项目的运行部分可以认为是由两个组件构成，ostd和kernel，它们之间具有解耦的接口。
 
 我认为组件的粒度太大，所以尝试了对这两个组件进行进一步的分解，发现难度很大，类似于分解Linux Kernel的体验。例如ostd，由于各个功能都是mod而非crate，并没有cargo.toml中dependicies的天然约束，导致相互（循环）依赖关系远大于ArceOS。因此将来我估计Asterinas将来上线后的维护过程中，会走上Linux Kernel的老路。
+
+
+
+### 组件化内核的参考模型
+
+XXX
+
+<img src="./Practical Re-implementation of Linux Kernel.assets/image-20241231111334654.png" alt="image-20241231111334654" style="zoom:80%;" />
+
+
 
