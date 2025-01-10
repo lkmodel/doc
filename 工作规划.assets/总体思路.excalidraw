@@ -1,0 +1,966 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "P61B3OmseFYSrklMWrHuY",
+      "type": "rectangle",
+      "x": 500,
+      "y": 100,
+      "width": 500.00000000000006,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB3",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1514507539,
+      "version": 66,
+      "versionNonce": 1018103507,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "ZhVOU-ixyJQ_i3Y2ZiKii"
+        },
+        {
+          "id": "13ELbfdGffvWQJDUxeIsT",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048508984,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ZhVOU-ixyJQ_i3Y2ZiKii",
+      "type": "text",
+      "x": 523.2000732421875,
+      "y": 113,
+      "width": 453.599853515625,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB3V",
+      "roundness": null,
+      "seed": 611160179,
+      "version": 179,
+      "versionNonce": 925125075,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736048483135,
+      "link": null,
+      "locked": false,
+      "text": "拟解决问题\n内核复杂性膨胀问题(主) && Linux生态兼容问题(次)",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "P61B3OmseFYSrklMWrHuY",
+      "originalText": "拟解决问题\n内核复杂性膨胀问题(主) && Linux生态兼容问题(次)",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "vdRUmoaJ8Xuh1UlEN-MUb",
+      "type": "rectangle",
+      "x": 500,
+      "y": 220,
+      "width": 500,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB5",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 389601811,
+      "version": 73,
+      "versionNonce": 1562190205,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "vZRHnUtUlC4mD3Iom7zcj"
+        },
+        {
+          "id": "13ELbfdGffvWQJDUxeIsT",
+          "type": "arrow"
+        },
+        {
+          "id": "Rbihls4o2dTUEfYSV6BzG",
+          "type": "arrow"
+        },
+        {
+          "id": "0yubxJiUeGCi6O50Ha7Lf",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048524029,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "vZRHnUtUlC4mD3Iom7zcj",
+      "type": "text",
+      "x": 519.5,
+      "y": 233,
+      "width": 461,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB6",
+      "roundness": null,
+      "seed": 2111446963,
+      "version": 279,
+      "versionNonce": 1605554099,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736049421642,
+      "link": null,
+      "locked": false,
+      "text": "总体目标\n提出设计原则和方法，给出参考实现，证明方法有效",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "vdRUmoaJ8Xuh1UlEN-MUb",
+      "originalText": "总体目标\n提出设计原则和方法，给出参考实现，证明方法有效",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "HxYWaNrD_Ok2kDj5q1pgp",
+      "type": "rectangle",
+      "x": 400,
+      "y": 340,
+      "width": 300,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB7",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 742159699,
+      "version": 73,
+      "versionNonce": 167122045,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "GpesufNHuKK7eZcvXE_k6"
+        },
+        {
+          "id": "Rbihls4o2dTUEfYSV6BzG",
+          "type": "arrow"
+        },
+        {
+          "id": "QLP5xElM_AwxO2UC1ZFU1",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048531022,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "GpesufNHuKK7eZcvXE_k6",
+      "type": "text",
+      "x": 409.5,
+      "y": 353,
+      "width": 281,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB8",
+      "roundness": null,
+      "seed": 1044927219,
+      "version": 348,
+      "versionNonce": 1973392141,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736130843266,
+      "link": null,
+      "locked": false,
+      "text": "思路1 - 分解复杂性\n基于组件的迭代式内核构建过程",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "HxYWaNrD_Ok2kDj5q1pgp",
+      "originalText": "思路1 - 分解复杂性\n基于组件的迭代式内核构建过程",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "2xmNNoTVCP-WE-FXQ_A80",
+      "type": "rectangle",
+      "x": 800,
+      "y": 340,
+      "width": 300,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bB9",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1016210589,
+      "version": 86,
+      "versionNonce": 1671141683,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "hmEG-nw3IrCAHXQuWpFny"
+        },
+        {
+          "id": "0yubxJiUeGCi6O50Ha7Lf",
+          "type": "arrow"
+        },
+        {
+          "id": "txJTYl7IM6dYltPylivqX",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048533783,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "hmEG-nw3IrCAHXQuWpFny",
+      "type": "text",
+      "x": 815.4800262451172,
+      "y": 353,
+      "width": 269.0399475097656,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBA",
+      "roundness": null,
+      "seed": 1534953725,
+      "version": 375,
+      "versionNonce": 1307457997,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736130854974,
+      "link": null,
+      "locked": false,
+      "text": "思路2 - 差分定位\n与Linux内核的多层次差分对比",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "2xmNNoTVCP-WE-FXQ_A80",
+      "originalText": "思路2 - 差分定位\n与Linux内核的多层次差分对比",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "Xb34HP5QHBdkc58NTs64a",
+      "type": "rectangle",
+      "x": 500,
+      "y": 460,
+      "width": 500,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBB",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1427145853,
+      "version": 89,
+      "versionNonce": 1473885779,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "8wF_8mFbKfjMnuF5BhpTa"
+        },
+        {
+          "id": "QLP5xElM_AwxO2UC1ZFU1",
+          "type": "arrow"
+        },
+        {
+          "id": "txJTYl7IM6dYltPylivqX",
+          "type": "arrow"
+        },
+        {
+          "id": "J-HOZREH4Y0vzfH1mcI5g",
+          "type": "arrow"
+        },
+        {
+          "id": "d7-OQxcCSuLKra5YQlgz8",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048544470,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "8wF_8mFbKfjMnuF5BhpTa",
+      "type": "text",
+      "x": 530,
+      "y": 473,
+      "width": 440,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBC",
+      "roundness": null,
+      "seed": 954526941,
+      "version": 354,
+      "versionNonce": 777130275,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736129604612,
+      "link": null,
+      "locked": false,
+      "text": "基础\n组件化内核框架模型、组件仓库、构造方法和工具",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "Xb34HP5QHBdkc58NTs64a",
+      "originalText": "基础\n组件化内核框架模型、组件仓库、构造方法和工具",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "ZgniKsETvr89K8bb18s8A",
+      "type": "rectangle",
+      "x": 400,
+      "y": 580,
+      "width": 300,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBD",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1296040467,
+      "version": 93,
+      "versionNonce": 984004957,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "z7nxTXwKq9S2lG-eTDMlh"
+        },
+        {
+          "id": "J-HOZREH4Y0vzfH1mcI5g",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048540230,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "z7nxTXwKq9S2lG-eTDMlh",
+      "type": "text",
+      "x": 424.9800262451172,
+      "y": 593,
+      "width": 250.03994750976562,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBE",
+      "roundness": null,
+      "seed": 951863219,
+      "version": 367,
+      "versionNonce": 1035668349,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736048182425,
+      "link": null,
+      "locked": false,
+      "text": "来源\nLinux内核的组件化重新实现",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ZgniKsETvr89K8bb18s8A",
+      "originalText": "来源\nLinux内核的组件化重新实现",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "jmogq40MWb2-s5o1k3fI7",
+      "type": "rectangle",
+      "x": 800,
+      "y": 580,
+      "width": 300,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBF",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 66364339,
+      "version": 104,
+      "versionNonce": 1313373587,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "CI-I-9aqm_kiaKMZmvMeu"
+        },
+        {
+          "id": "d7-OQxcCSuLKra5YQlgz8",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1736048544470,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "CI-I-9aqm_kiaKMZmvMeu",
+      "type": "text",
+      "x": 840,
+      "y": 593,
+      "width": 220,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBG",
+      "roundness": null,
+      "seed": 531346771,
+      "version": 416,
+      "versionNonce": 68627421,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736048395784,
+      "link": null,
+      "locked": false,
+      "text": "衍生\n组件化构成各种内核模式",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "jmogq40MWb2-s5o1k3fI7",
+      "originalText": "衍生\n组件化构成各种内核模式",
+      "autoResize": true,
+      "lineHeight": 1.35
+    },
+    {
+      "id": "13ELbfdGffvWQJDUxeIsT",
+      "type": "arrow",
+      "x": 740,
+      "y": 220,
+      "width": 0,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBH",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 732180755,
+      "version": 7,
+      "versionNonce": 1734616371,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736048508984,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -40
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "vdRUmoaJ8Xuh1UlEN-MUb",
+        "focus": -0.04,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "P61B3OmseFYSrklMWrHuY",
+        "focus": 0.039999999999999994,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "Rbihls4o2dTUEfYSV6BzG",
+      "type": "arrow",
+      "x": 560,
+      "y": 339,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBI",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 291745299,
+      "version": 11,
+      "versionNonce": 970036355,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736130832226,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -39
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "HxYWaNrD_Ok2kDj5q1pgp",
+        "focus": 0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "vdRUmoaJ8Xuh1UlEN-MUb",
+        "focus": 0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "0yubxJiUeGCi6O50Ha7Lf",
+      "type": "arrow",
+      "x": 940,
+      "y": 340,
+      "width": 0,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBJ",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 335246141,
+      "version": 7,
+      "versionNonce": 2086325533,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736048524029,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -40
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "2xmNNoTVCP-WE-FXQ_A80",
+        "focus": -0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "vdRUmoaJ8Xuh1UlEN-MUb",
+        "focus": -0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "QLP5xElM_AwxO2UC1ZFU1",
+      "type": "arrow",
+      "x": 560,
+      "y": 459,
+      "width": 0,
+      "height": 38,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBK",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1679205949,
+      "version": 12,
+      "versionNonce": 1146227747,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736130832227,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -38
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "Xb34HP5QHBdkc58NTs64a",
+        "focus": -0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "HxYWaNrD_Ok2kDj5q1pgp",
+        "focus": -0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "txJTYl7IM6dYltPylivqX",
+      "type": "arrow",
+      "x": 940,
+      "y": 459,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBL",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 383781747,
+      "version": 8,
+      "versionNonce": 1220497933,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736129597657,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -39
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "Xb34HP5QHBdkc58NTs64a",
+        "focus": 0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "2xmNNoTVCP-WE-FXQ_A80",
+        "focus": 0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "J-HOZREH4Y0vzfH1mcI5g",
+      "type": "arrow",
+      "x": 560,
+      "y": 580,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBM",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2077757405,
+      "version": 10,
+      "versionNonce": 790507011,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736129652067,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -39
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "ZgniKsETvr89K8bb18s8A",
+        "focus": 0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "Xb34HP5QHBdkc58NTs64a",
+        "focus": 0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "d7-OQxcCSuLKra5YQlgz8",
+      "type": "arrow",
+      "x": 940,
+      "y": 541,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bBN",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1809954771,
+      "version": 10,
+      "versionNonce": 2074470317,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1736129652067,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          39
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "Xb34HP5QHBdkc58NTs64a",
+        "focus": -0.76,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "jmogq40MWb2-s5o1k3fI7",
+        "focus": -0.06666666666666667,
+        "gap": 1,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": true,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
